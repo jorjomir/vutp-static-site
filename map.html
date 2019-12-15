@@ -1,0 +1,261 @@
+<html>
+<head>
+<link rel="icon" type="image/png" href="icon.png"/>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #661a00;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+	font-size:30;
+	
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #802000;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.active {
+    background-color: #ff5c33;
+}
+
+div.logo {
+ margin: 5px;
+ width: 100%;
+ position:fixed;
+ bottom:50px;
+ left:1600px;
+  z-index: 2;
+	}
+	p.z {
+text-align: center;
+font-size: 50;
+position:static;
+background-color:#ffb366;
+color:brown;
+font-weight:bold;
+}
+div.map {
+margin-left: 450px;
+
+}
+div.map img{
+width: 1000px;
+}
+div.m p {
+font-size: 30;
+background-color:#ffb366;
+font-family: Arial;
+border: 1px solid;
+overflow:hidden;
+text-align:justify;
+position:static;
+
+}
+
+
+h1 {
+font-size:50;
+font-family: Arial
+overflow:hidden;
+text-align:center;
+position:static;
+color:brown;
+border-top:5px solid;
+text-decoration:underline;
+}
+
+div.pet{
+overflow:hidden;
+width:30%;
+height:400px;
+border: 1px #330d00 solid;
+float:left;
+margin-left:50px;
+}
+
+div.pet img{
+width:100%;
+height:100%;
+overflow:hidden;
+margin: auto;
+
+}
+
+body {
+   background-image: url("tapet.jpg");
+   background-color: #cccccc;
+   width:100%;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Shop</a>
+    <div class="dropdown-content">
+      <a href="shop.html">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+  <li><a href="map.html" class="active">Map</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+    <li style="float:right"><a href="about.html">About</a></li>
+</ul>
+
+
+
+
+
+
+<div class="logo"> <img src="logo.png"> </div>
+<p class="z">Happy Paws Shops Near You: </p>
+
+
+<div class="map"> 
+<img src="mapbg.png" usemap="#bgmap">
+</div>
+<map name="bgmap">
+<area shape="circle" coords="400,160,30" href="#pleven" >
+<area shape="circle" coords="900,210,30" href="#varna" >
+<area shape="circle" coords="800,350,30" href="#burgas" >
+<area shape="circle" coords="420,410,30" href="#plovdiv" >
+<area shape="circle" coords="200,310,30" href="#sofia" >
+</map>
+
+<br><br><br><br><br><br><br><br><br>
+
+<h1 id="pleven"> Pleven </h1> <br>
+<div class="m"><p> A<br>
+PetShop office Pleven Druzhba<br>
+улица „България“ №4, ж.к. Дружба, · 088 281 8099<br>
+Opens at 9:00 AM </p></div><br>
+
+
+<div class="pet"><a target="_self" href="pleven.jpg"><img src="pleven.jpg"> </a></div>
+<div class="pet"><a target="_self" href="pet1.jpg"><img src="pet1.jpg"></a></div>
+<div class="pet"><a target="_self" href="pet6.jpg"><img src="pet6.jpg"></a></div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h1 id="varna"> Varna </h1><br>
+<div class="m"><p>A <br>
+PetShop market Mladost<br>
+Куриерски услуги<br>
+Младост · 087 992 2048<br>
+Opens at 9:00 AM<br>
+B<br>
+PetShop office Varna Chataldja<br>
+Куриерски услуги<br>
+Район Приморски, ул. Княз Николаевич №34, зад пазара за цветя · 052 609 214<br>
+Opens at 9:00 AM</p></div><br>
+
+<div class="pet"><a target="_self" href="varna.png"><img src="varna.png"></a></div>
+<div class="pet"><a target="_self" href="pet2.jpg"><img src="pet2.jpg"></a></div> 
+<div class="pet"><a target="_self" href="pet8.jpg"><img src="pet8.jpg"></a></div> 
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h1 id="burgas"> Burgas </h1><br>
+<div class="m"> <p>
+A <br>
+PetShop office Burgas Patriarch Evtimii<br>
+ul. "Probuda" 65 · 056 911 944<br>
+Opens at 9:00 AM<br>
+B<br>
+PetShop Office Bourgas Izgrev <br>
+j.k. sunrise 186 · 088 281 8025 <br>
+Opens at 9:00 AM </p></div><br>
+
+
+<div class="pet"><a target="_self" href="burgas.jpg"><img src="burgas.jpg"> </a></div>
+<div class="pet"><a target="_self" href="pet3.jpg"><img src="pet3.jpg"></a> </div>
+<div class="pet"><a target="_self" href="pet7.jpg"><img src="pet7.jpg"></a></div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h1 id="plovdiv">Plovdiv </h1><br>
+<div class="m"><p>
+A <br>
+PetShop Пловдив Скобелева Майка<br>
+№6, ul. "Georgi Tsarigradski" · 087 992 1957<br>
+Opens at 9:00 AM</p></div><br>
+
+
+<div class="pet"><a target="_self" href="plovdiv.jpg"><img src="plovdiv.jpg"></a> </div>
+<div class="pet"><a target="_self" href="pet9.jpg"><img src="pet9.jpg"></a> </div>
+<div class="pet"><a target="_self" href="pet5.jpg"><img src="pet5.jpg"></a></div> 
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h1 id="sofia"> Sofia </h1> <br>
+<div class="m"> <p>
+A <br>
+PetShop office Sofia<br>
+Куриерски услуги<br>
+ul. "Rezbarska" 11 · 087 992 2754<br>
+Opens at 6:00 AM<br>
+<br>
+B<br>
+PetShop office Sofia Dianabad <br>
+Куриерски услуги <br>
+ul. "Tintyava" 27 · 087 992 2007 <br>
+Opens at 9:00 AM <br>
+<br>
+C<br>
+PetShop office Sofia Roman wall <br>
+Куриерски услуги <br>
+1000, ul. "Arhitekt Yordan Milanov" 4 · 087 992 2711 <br>
+Opens at 9:00 AM </p></div> <br>
+
+<div class="pet"><a target="_self" href="sofiq.jpg"><img src="sofiq.jpg"></a> </div>
+<div class="pet"><a target="_self" href="pet4.jpg"><img src="pet4.jpg"></a> </div>
+<div class="pet"><a target="_self" href="pet10.jpg"><img src="pet10.jpg"></a></div> 
+
+
+</body>
+</html>
