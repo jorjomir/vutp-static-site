@@ -1,0 +1,97 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #661a00;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+	font-size:30;
+	
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #802000;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.active {
+    background-color: #ff5c33;
+}
+
+
+
+div.logo {
+ margin: 5px;
+ width: 100%;
+ position:fixed;
+ bottom:50px;
+ left:1600px;
+  z-index: 2;
+	}
+	p.z {
+text-align: center;
+font-size: 50;
+}
+
+body {
+   background-image: url("../images/tapet.jpg");
+   background-color: #cccccc;
+   width: 99%;
+  
+}
+h1 {
+font-size:50;
+font-family: Arial
+overflow:hidden;
+text-align:center;
+position:static;
+color:brown;
+background-color:#ffb366;
+}
+div.h{
+width:auto;
+height:auto;
+margin-left:80px;
+margin-top:100px;
+}
+div.h img{
+width:auto;
+height:auto;
+}

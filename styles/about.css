@@ -1,0 +1,165 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #661a00;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+	font-size:30;
+	
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #802000;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.active {
+    background-color: #ff5c33;
+}
+
+
+
+div.logo {
+ margin: 5px;
+ width: 100%;
+ position:fixed;
+ bottom:50px;
+ left:1600px;
+ z-index: 2;
+	}
+	p.z {
+text-align: center;
+font-size: 50;
+color:brown;
+background-color:#ffb366;
+font-weight:bold;
+}
+
+body {
+   background-image: url("../images/tapet.jpg");
+   background-color: #cccccc;
+   width: 99%;
+}
+div.dropdow {
+position:relative;
+display:inline-block;
+weight:900px;
+height:100px;
+font-size:40;
+text-align:left;
+margin-left:200px;
+margin-top:100px;
+font-weight:bold;
+font-family:Arial;
+color:brown;
+text-decoration:underline;
+}
+
+
+div.dropdow-content {
+position:absolute;
+display:none;
+background-image: url("../images/tapetp.jpg");
+min-width: 113%;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding: 12px 16px;
+border: 1px solid;
+z-index: 1;
+}
+
+div.dropdow:hover .dropdow-content {
+display:block;
+}
+
+p.pic img{
+weight:300px;
+height:300px;
+border: 1px solid;
+}
+p.pic {
+background-color:#ffa366;
+padding:10px;
+}
+h1 {
+font-size:60;
+font-family: Arial;
+overflow:hidden;
+text-align:center;
+position:static;
+color:brown;
+font-weight:bold;
+}
+
+div.back {
+background-color:white;
+width:85%;
+height:1000px;
+margin-left: 200px;
+border: 1px solid;
+}
+
+ol {
+margin-left:90px;
+text-align:left;
+background-color:#ffa366;
+}
+
+ol.bra {
+    list-style-image: url("../images/breed1.jpg");
+}
+ol.brb {
+    list-style-image: url("../images/breed2.jpg");
+}
+ol.brc {
+    list-style-image: url("../images/breed3.jpg");
+}
+ol.brd {
+    list-style-image: url("../images/breed4.jpg");
+} 
+ol.bre {
+    list-style-image: url("../images/breed5.jpg");
+}
+ol.brj {
+    list-style-image: url("../images/breed6.jpg");
+}
+ol.bri {
+    list-style-image: url("../images/breed7.jpg");
+}
